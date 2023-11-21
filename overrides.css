@@ -1,1 +1,187 @@
+/* Start Override CSS */
+:root {
+    --bs-blue: #f68c3d !important;
+}
 
+:root {
+    --swiper-theme-color: #f68c3d;
+}
+
+.hide {
+    display: none !important;
+    visibility: hidden !important;
+}
+p {
+    line-height: 33px;
+}
+header .logo_ITBA {
+    margin: inherit !important;
+}
+
+body {
+    text-transform: none !important;
+}
+
+footer p {
+    line-height: 25px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-check-input:checked {
+    background-color: #e89a1e;
+    border-color: #e5bc78;
+}
+
+input, select {
+    border: 1px solid #e5bc78;
+    text-align: right;
+}
+
+input:focus,input:focus-visible, select:focus, textarea:focus, .select-selected:focus,
+input:hover, select:hover, .select-selected:hover, textarea:hover, .select2:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #e89a1e;
+    outline: 0;
+    box-shadow: 0 0 0 0.20rem rgba(220, 136, 81, 0.65);
+}
+
+input[type="radio"], input[type="checkbox"] {
+}
+
+input[type=submit] {
+    text-align: center !important;
+    background-color: #f68c3d !important;
+}
+
+.form_section form input:disabled, .form_section form .form_input,
+.form_section form select, .form-control, .custom-select, .custom_textArea,
+.select-selected, .custom-textArea, .select2-selection {
+    border: 1px solid #dc8851;
+    color: #423e1f;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #dc8851 !important;
+    background: #fff;
+}
+
+input, select, textarea {
+    background-color: #fff !important;
+}
+
+input:disabled, input[readonly] {
+    background-color: #eaeaea !important;
+    border: 1px solid #bbb !important;
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f68c3d;
+    border-color: #f68c3d;
+}
+
+.permissions_cards .permission_card .permission_desc p {
+    font-size: 29px !important;
+    line-height: 20px !important;
+}
+
+#terms-step p, #terms-step li {
+    line-height: 30px;
+    color: #000;
+    list-style-position: inside;
+}
+.footer .copyright p{
+    text-align: left;
+}
+.profile_permissions_box .profile_box_info > div:last-child,
+.profile_permissions_box .profile_box_date > div:last-child {
+    width: 30%;
+}
+.permission-print{margin-right:10px;}
+.permission_accepted,.permission_refused,.permission_waiting {
+    color: #000 !important;
+}
+.permission_accepted {
+    background-color: #afe8c5;
+}
+.permission_waiting {
+    background-color: #ffd7be;
+}
+.permission_refused {
+    background-color: #f7c8c8;
+}
+.permission_btn {
+    font-size: 13px;
+}
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 137, 63, 0.26);
+}
+
+ul {
+    list-style-position: inside;
+    line-height: 31px;
+}
+.wild_content p{
+    line-height: 44px;
+}
+.wild_content {
+    padding: 20px 0;
+}
+h5, .h5 {
+    font-size: 1.25rem;
+    line-height: 35px;
+}
+.page-description p{
+    line-height: 44px;
+}
+
+.first_calender input {
+    border-radius: 8px !important;
+    border: 1px solid #f68c3d !important;
+}
+.validation-error{
+    color: #dc3545 !important;
+    font-size: 13px;
+    padding-top: 5px;
+    position: absolute;
+}
+.form_input.plat_letter{
+    padding: 10px;
+    text-align: center;
+    height: 43px;
+    font-size: 14px;
+}
+.form-group.first_calender{margin-left:20px;}
+
+
+@media only screen and (max-width: 900px) {
+    .header-menue .register {
+        display: block;
+    }
+    .header-menue .register .custom-btn {
+        padding: 9px 20px;
+    }
+    .permissions_cards .row.lab_view {
+        display: block;
+    }
+    .permissions_cards .row.lab_view > div{margin-bottom:30px;}
+    .plate_inputs .form_input {
+        padding: 10px 5px !important;
+        width: 50% !important;
+    }
+    .plate_inputs .plate_num{width: 100% !important;}
+}
